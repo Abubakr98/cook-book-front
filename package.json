@@ -1,0 +1,57 @@
+{
+  "name": "cook-book-front",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "axios": "^0.19.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.0",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "24.0.23",
+    "@types/node": "12.12.14",
+    "@types/react": "16.9.14",
+    "@types/react-dom": "16.9.4",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/styled-components": "^5.1.1",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "prettier": "^2.0.5",
+    "typescript": "3.7.2"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "lint-me": "eslint */**/*.{js,ts,tsx} --quiet --fix`",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
